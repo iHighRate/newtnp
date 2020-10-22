@@ -1,1 +1,250 @@
-@import
+/********** MENU SECTION **********/
+
+@media (max-width: 1260px) {
+    .about{
+        margin: 0;
+        padding: 15px;
+    }
+
+    .about .container {
+        width: 100%;
+    }
+
+    .about .container .about_img {
+        margin-right: 15px;
+        width: 100%;
+    }
+
+    .about .container .about_img img{
+        width: 100%;
+    }
+
+    .news .container {
+        width: 100%;
+        padding: 25px;
+    }
+
+    .partners .container {
+        width: 100%;
+    }
+
+    .partners .container .logo_slider {
+        width: 90%;
+    }
+
+    .news .container .news_wrapper .news_frame {
+        width: 49%
+    }
+
+    .news .container .news_wrapper .news_frame img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 580px) {
+    .about .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about .container h2 {
+        margin: 15px 0;
+        font-size: 23px;
+    }
+    .news .container {
+        padding: 10px;
+    }
+    .news .container h2 {
+        font-size: 23px;
+    }
+    .news .container .news_wrapper {
+        flex-direction: column;
+    }
+    .news .container .news_wrapper .news_frame {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .news .container .news_wrapper .news_frame p {
+        height: 35px;
+    }
+    .news .container .news_wrapper .news_frame {
+        margin-bottom: 0;
+    }
+    .partners {
+        margin: 15px 0 0 0;
+        padding: 25px;
+    }
+    .partners .container h2 {
+        margin: 0 0 15px 0;
+        font-size: 23px;
+    }
+}
+
+/********** SERVICES SECTION **********/
+
+@media (max-width: 1040px) {
+    .services .container {
+        width: 100%;
+        margin: 0;
+        padding: 25px;
+    }
+
+    .services .container h1{
+        font-size: 26px;
+    }
+
+    .services .container .services_bg h2{
+        font-size: 18px;
+    }
+
+    .services .container .services_bg .list_bg {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .services .container .services_bg .list_bg ul li{
+        padding: 5px 0;
+    }
+}
+
+/********** ETTE SECTION **********/
+
+@media (max-width: 1040px) {
+    .ette .container {
+        width: 100%;
+        margin: 0;
+        padding: 25px;
+    }
+
+    .ette .container h1{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 580px) {
+    .ette .diploms {
+        flex-direction: column;
+    }
+
+    .ette .diploms img{
+        width: 100%;
+        margin: 15px 0 0 0;
+    }
+}
+
+/********** NEWS SECTION **********/
+
+@media (max-width: 1040px) {
+    .news .container {
+        width: 100%;
+        margin: 0;
+        padding: 25px;
+    }
+
+    .news .container h1{
+        font-size: 26px;
+    }
+}
+
+/********** NEWS REGISTR **********/
+
+@media (max-width: 1040px) {
+    .registr .container{
+        width: 100%;
+        margin: 0;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 850px) {
+    .registr .container .contant_info {
+        width: 100%;
+    }
+    .registr .container .more_info_bg {
+        flex-direction: column;
+    }
+    .registr .container .more_info_bg .more_info_wrapper {
+        margin: 10px 0 0 0;
+        width: 100%;
+    }
+    .registr .container .more_info_bg .more_info_btns {
+        flex-direction: row;
+        justify-content: left;
+        height: 70px;
+    }
+    .registr .container .more_info_bg .more_info_btns button {
+        height: auto;
+    }
+}
+
+@media (max-width: 580px) {
+    .registr .container .contant_info {
+        width: 100%;
+        flex-direction: column;
+    }
+    .registr .container .more_info_bg .more_info_btns {
+        justify-content: space-between
+    }
+    .registr .container .more_info_bg .more_info_btns button {
+        margin-right: 0;
+    }
+}
+
+/********** OIGUSAKTID SECTION **********/
+
+@media (max-width: 1040px) {
+    .oigusaktid .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 720px) {
+    .oigusaktid .container .grid .box{
+        max-width: 100%;
+        min-height: auto;
+        margin: 5px 0 5px 0;
+    }
+    .oigusaktid .container .grid{
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+}
+
+/********** TAGASISIDE SECTION **********/
+
+@media (max-width: 1040px) {
+    .tagasiside .container {
+        max-width: 100%;
+        margin: 25px 5px;
+    }
+}
+
+@media (max-width: 650px) {
+    .tagasiside .container {
+        flex-direction: column;
+    }
+    .tagasiside .container .map_frame, .form_frame, .info_frame {
+        width: 100%;
+    }
+    .tagasiside .container .info_frame {
+        margin-top: 25px;
+        padding: 25px;
+    }
+}
+
+/********** PERSONAL SECTION **********/
+
+@media (max-width: 1040px) {
+    .personal .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 25px 10px;
+    }
+}
+
+@media (max-width: 525px) {
+    .personal .container .list_name .box_name {
+        width: 100%;
+    }
+}

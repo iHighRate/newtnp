@@ -1,0 +1,406 @@
+* {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/********** MENU SECTION **********/
+
+body h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+body h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+body h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body p{
+    font-size: 13px;
+    color: #5F5F5F;
+}
+
+nav{
+    width: 100%;
+    position: relative;
+}
+
+nav .container {
+    padding: 15px 35px;
+}
+
+nav .container .menu_wrapper{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+nav .container .logo{
+    width: 15%;
+}
+
+nav .container .logo a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+nav .container .mob_logo{
+    display: none;
+}
+
+nav .container .mob_logo a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+}
+
+nav .container .menu_wrapper .menu{
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+}
+
+nav .container .menu_wrapper ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav .container .menu_wrapper .menu li{
+    margin: 0 15px;
+}
+
+nav .container .menu_wrapper .menu li a{
+    color: #3E3E3E;
+    font-size: 16px;
+}
+
+nav .container .menu_wrapper .menu .page{
+    color: #009688;
+    text-decoration: underline;
+}
+
+nav .container .menu_wrapper .top_btns{
+    text-align: right;
+    align-self: right;
+    width: 35%;
+}
+
+nav .container .menu_wrapper .top_btns a{
+    color: #ffffff;
+    font-size: 11px;
+    margin-left: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #83D0C9;
+    border-radius: 5px;
+    padding: 2px 5px;
+    transition: 0.5s all;
+}
+
+nav .container .menu_wrapper .top_btns a:hover{
+    background-color: #009688;
+}
+
+nav .container .menu_wrapper .top_btns a:hover {
+    text-decoration: none;
+}
+
+nav .hamburger {
+    display: none;
+}
+
+/********** MENU SECTION **********/
+
+.projects{
+    width: 100%;
+}
+
+.projects .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects .container .project_bg{
+    width: 33%;
+    height: 450px;
+    padding: 100px 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects .container .project_bg p{
+    font-size: 13px;
+    color: #5F5F5F;
+    width: 165px;
+    margin-bottom: 25px;
+}
+
+.projects .container .project_bg a{
+    color: #009688;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #009688;
+    border-radius: 5px;
+    padding: 8px 25px;
+    width: 160px;
+}
+
+.projects .container .project_bg a:hover{
+    background: #009688;
+    color: #ffffff;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+
+.projects .container .project_kodu{
+    background: url('../img/koduoendus_bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.projects .container .project_kooli{
+    background: url('../img/koolioendus_bg.jpg') no-repeat center;
+    background-size: cover;
+    align-items: center;
+}
+
+.projects .container .project_kooli p{
+    text-align: center;
+}
+
+.projects .container .project_hoolde{
+    background: url('../img/hooldekodu_bg.jpg') no-repeat center;
+    background-size: cover;
+    align-items: flex-end;
+}
+
+.projects .container .project_hoolde a{
+    margin-right: 5px;
+}
+
+/********** FOOTER SECTION **********/
+
+footer{
+    background: #333333;
+    min-height: 25px;
+    width: 100%;
+    align-self: flex-end;
+}
+
+footer .container{
+    width: 1040px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer .container i{
+    color: #a5a5a5;
+    font-size: 11px;
+}
+
+
+/**********************************/
+/********** MENU SECTION **********/
+/**********************************/
+
+@media (max-width: 1260px) {
+    nav .container .logo {
+        width: 20%;
+    }
+
+    nav .container .menu_wrapper .menu {
+        width: 40%;
+    }
+    nav .container .menu_wrapper .top_btns {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1024px) {
+    html section {
+        min-height: 50vh;
+    }
+    body h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    body h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    body h3{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .projects .container p{
+        display: none;
+    }
+    .projects .container .project_bg {
+        height: auto;
+        padding: 10px;
+    }
+    .projects .container .project_kodu {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+    }
+    .projects .container .project_kooli {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+    }
+    .projects .container .project_hoolde {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 15vh;
+    }
+
+    .projects .container .project_hoolde a {
+        margin: 0;
+    }
+
+    nav .hamburger {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 45px;
+        cursor: pointer;
+        height: 27px;
+    }
+
+    nav .hamburger span{
+        display: block;
+        height: 4px;
+        width: 100%;
+        background-color: #009688;
+        margin-bottom: 5px;
+        transition: 0.5s all;
+    }
+
+    nav .hamburger_active span {
+        margin-bottom: -5px;
+    }
+
+    nav .hamburger_active span:nth-child(1){
+        transform: translateY(10px) rotate(-45deg);
+    }
+
+    nav .hamburger_active span:nth-child(2){
+        display: none;
+    }
+
+    nav .hamburger_active span:nth-child(3){
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    nav .container {
+        padding: 20px;
+        background-color: #f3f3f3;
+    }
+
+    nav .container .mob_logo{
+        display: block;
+    }
+
+    nav .container .menu_wrapper {
+        position: fixed;
+        width: 50%;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        align-items: center;
+        justify-items: center;
+        background: rgba(0,0,0,0.9);
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s all;
+    }
+
+    nav .container .menu_wrapper_active{
+        left: 0;
+    }
+
+    nav .container .menu_wrapper .logo {
+        display: none;
+    }
+
+    nav .container .menu_wrapper .menu {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15%;
+    }
+
+    nav .container .menu_wrapper .menu li{
+        margin: 0;
+    }
+
+    nav .container .menu_wrapper .menu .menu_item{
+        padding-right: 0;
+        border-right: 0;
+        margin-bottom: 10px;
+    }
+
+    nav .container .menu_wrapper .menu li a{
+        color: #ffffff;
+        font-size: 22px;
+    }
+
+    nav .container .menu_wrapper .top_btns {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+    }
+
+    nav .container .menu_wrapper .top_btns a{
+        margin: 10px 0;
+        width: auto;
+        padding: 3px 10px;
+    }
+
+    footer .container{
+        width: 100%;
+    }
+}
+
+@media (max-width: 580px) {
+    .projects .container {
+        flex-direction: column;
+    }
+    .projects .container .project_bg a {
+        width: auto;
+        font-size: 12px;
+        padding: 5px 20px;
+    }
+    .news .container .news_wrapper .news_frame a {
+        margin: 0;
+    }
+    .news .container .news_wrapper .news_frame {
+        margin: 0 0 15px 0;
+    }
+    .partners {
+        margin: 0;
+    }
+    .projects .container .project_kodu {
+        height: auto;
+    }
+    .projects .container .project_kooli {
+        height: auto;
+    }
+    .projects .container .project_hoolde {
+        height: auto;
+    }
+}

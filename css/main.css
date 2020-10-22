@@ -1,0 +1,429 @@
+/********** ABOUT SECTION **********/
+
+.about{
+    margin: 40px 0;
+    background-color: #F3F3F3;
+    padding: 35px 0;
+}
+
+.about .container{
+    width: 1040px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.about .container h2{
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.about .container .about_img{
+    margin-right: 55px;
+}
+
+.about .container .about_desc{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.about .container .about_desc .about_btns{
+    display: flex;
+}
+
+.about .container .about_desc .about_btns a{
+    background: #83D0C9;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 35px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.about .container .about_desc .about_btns a:hover{
+    background: #009688;
+    transition: 0.5s all;
+    text-decoration: none;
+}
+
+/********** NEWS SECTION **********/
+
+.news .container{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+.news .container h2{
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+.news .container .news_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.news .container .news_wrapper .news_frame{
+    width: 475px;
+}
+
+.news .container .news_wrapper .news_frame img{
+    margin-bottom: 15px;
+}
+
+.news .container .news_wrapper .news_frame h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.news .container .news_wrapper .news_frame p{
+    margin-top: 10px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.news .container .news_wrapper .news_frame a{
+    color: #009688;
+    font-size: 14px;
+}
+
+/********** PARTNERS SECTION **********/
+
+.partners{
+    margin: 40px 0 0 0;
+    background-color: #F3F3F3;
+    padding: 35px 0;
+}
+
+.partners .container{
+    width: 1040px;
+    margin: 0 auto;
+    text-align-last: center;
+}
+
+.partners .container h2{
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+.partners .container .logo_slider{
+    max-width: 1200px;
+    height: 75px;
+    overflow: scroll;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.partners .container .logo_slider img{
+    display: block;
+    margin: 0 10px;
+    max-width: 100px;
+    max-height: 58px;
+}
+
+/********** TEENUSED SECTION **********/
+
+.services .container {
+    width: 1040px;
+    margin: 40px auto;
+}
+
+.services .container p{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.services .container a{
+    color: #009688;
+}
+
+.services .container .services_bg h2{
+    font-weight: 400;
+    margin: 25px 0 15px 0;
+}
+
+.services .container .services_bg .list_bg {
+    display: flex;
+    background-color: #F1F1F1;
+    padding: 35px;
+}
+
+.services .container .services_bg .list_bg ul{
+    margin: 0 35px 0 0;
+}
+
+.services .container .services_bg .list_bg ul li{
+    padding: 10px 0;
+    color: #5F5F5F;
+    font-size: 14px;
+    list-style: none;
+}
+
+.services .container .services_bg .list_bg ul li:before{
+    content: "+";
+    color: #83D0C9;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em; 
+    font-size: 20px;
+}
+
+/********** ETTEVOTTEST SECTION **********/
+
+.ette .container {
+    width: 1040px;
+    margin: 40px auto;
+}
+
+.ette .text p {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.ette .diploms {
+    display: flex;
+    margin-top: 25px;
+}
+
+.ette .diploms img{
+    width: 40%;
+    margin-right: 15px;
+}
+
+/********** NEWS SECTION **********/
+
+.news .container {
+    width: 1040px;
+    margin: 45px auto;
+}
+
+.news .container img{
+    width: 100%;
+}
+
+.news .container p{
+    color: #5F5F5F;
+    margin: 10px 0;
+    padding: 0;
+}
+
+/********** REGISTREEREMINE SECTION **********/
+
+.registr .container{
+    width: 1040px;
+    margin: 45px auto;
+}
+
+.registr .container .contant_info{
+    background-color: #F8F8F8;
+    border: 1px solid #E8E8E8;
+    display: flex;
+    padding: 7px 20px;
+    justify-content: left;
+    width: 465px;
+    margin-bottom: 25px;
+}
+
+.registr .container .contant_info p{
+    padding: 0;
+    margin: 0;
+}
+
+.registr .container .contant_info img{
+    margin-right: 10px;
+}
+
+.registr .container .contant_info .info_mail_bg, .info_phone_bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registr .container .contant_info .info_mail_bg {
+    margin-right: 35px;
+}
+
+.registr .container .more_info_bg {
+    display: flex;
+}
+
+.registr .container .more_info_bg .more_info_btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registr .container .more_info_bg .more_info_btns button{
+    height: 48%;
+    width: 150px;
+    background-color: #009688;
+    border-radius: 5px;
+    border: none;
+    font-size: 11px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    line-height: 11px;
+    margin-right: 15px;
+}
+
+.registr .container .more_info_bg .more_info_wrapper {
+    background-color: #F3F3F3;
+    margin-right: 15px;
+    padding: 15px 35px;
+    min-width: 300px;
+}
+
+.registr .container .more_info_bg .more_info_wrapper h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.registr .container .more_info_bg .more_info_wrapper ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.registr .container .more_info_bg .more_info_wrapper ul li{
+    font-size: 13px;
+    color: #5F5F5F;
+    padding: 0;
+    margin: 0;
+}
+
+/********** OIGUSAKTID SECTION **********/
+
+.oigusaktid .container{
+    max-width: 1040px;
+    margin: 25px auto;
+}
+
+.oigusaktid .container .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.oigusaktid .container .grid .box{
+    max-width: 300px;
+    min-height: 250px;
+    background-color: #F8F8F8;
+    border: 1px solid #E8E8E8;
+    padding: 25px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+}
+
+.oigusaktid .container .grid .box a {
+    background-color: #83D0C9;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align-last: center;
+    width: 150px;
+}
+
+/********** TAGASISIDE SECTION **********/
+
+.tagasiside .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1040px;
+    margin: 75px auto;
+}
+
+.tagasiside .container .map_frame, .form_frame, .info_frame {
+    width: 32%;
+}
+
+.tagasiside .container .form_frame input, textarea{
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #F8F8F8;
+    border: 1px solid #E8E8E8;
+    color: #9C9C9C;
+    padding: 3px 10px;
+}
+
+.tagasiside .container .form_frame button{
+    background-color: #83D0C9;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 25px;
+    width: 100%;
+    transition: 0.5s all;
+}
+
+.tagasiside .container .form_frame button:hover{
+    background-color: #009688;
+}
+
+.tagasiside .container .info_frame {
+    border: 1px solid #898989;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.tagasiside .container .info_frame p{
+    margin: 0;
+    padding: 0;
+}
+
+.tagasiside .container .info_frame img{
+    margin: 20px auto 10px auto;
+    width: 35px;
+}
+
+.tagasiside .container .info_frame img:first-child{
+    margin-top: 0;
+}
+
+/********** PERSONAL SECTION **********/
+
+.personal .container {
+    max-width: 1040px;
+    margin: 50px auto 75px auto;
+}
+
+.personal .container h2{
+    margin-top: 25px;
+}
+
+.personal .container .list_name {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.personal .container .list_name .box_name {
+    background-color: #F5F5F5;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 225px;
+    min-height: 125px;
+    padding: 15px;
+}
+
+.personal .container .list_name .box_name p{
+    margin: 0;
+    padding: 0;
+    min-height: 17px;
+}
+
+.personal .container .list_name .box_name .position{
+    color: #009688;
+}
